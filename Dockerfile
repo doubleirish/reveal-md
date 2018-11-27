@@ -16,4 +16,4 @@ COPY resources/listing.html /usr/lib/node_modules/reveal-md/lib/template/
 
 EXPOSE 1948
 
-CMD ["sh", "-c", "reveal-md /usr/src/app -w --theme cs"]
+CMD ["sh", "-c", "reveal-md /usr/src/app -w --theme dark"]
